@@ -29,10 +29,6 @@
 		4C0041CF1BFC3D4000ED2AD5 /* SQLCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041A91BFC3A7E00ED2AD5 /* SQLCipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C0041E11BFC3F0800ED2AD5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0041E01BFC3F0800ED2AD5 /* Security.framework */; };
 		4C0041E21BFC3F5A00ED2AD5 /* SQLCipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041A91BFC3A7E00ED2AD5 /* SQLCipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C0041FA1BFC46A600ED2AD5 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041F91BFC46A600ED2AD5 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C0041FB1BFC46A600ED2AD5 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041F91BFC46A600ED2AD5 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C0041FC1BFC46A600ED2AD5 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041F91BFC46A600ED2AD5 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C0041FD1BFC46A600ED2AD5 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0041F91BFC46A600ED2AD5 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C0041FE1BFC474700ED2AD5 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9069D0A20FCE1A4D0042E34C /* sqlite3.c */; };
 		4C0041FF1BFC474700ED2AD5 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9069D0A20FCE1A4D0042E34C /* sqlite3.c */; };
 		4C0042001BFC474700ED2AD5 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 9069D0A20FCE1A4D0042E34C /* sqlite3.c */; };
@@ -90,7 +86,6 @@
 		4C0041D01BFC3D9A00ED2AD5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "macosx/Info-tvOS.plist"; sourceTree = "<group>"; };
 		4C0041D61BFC3E2500ED2AD5 /* SQLCipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0041E01BFC3F0800ED2AD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		4C0041F91BFC46A600ED2AD5 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		9069D0A20FCE1A4D0042E34C /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 		D2AAC046055464E500DB518D /* libsqlcipher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsqlcipher.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -153,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				9069D0A20FCE1A4D0042E34C /* sqlite3.c */,
-				4C0041F91BFC46A600ED2AD5 /* sqlite3.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -198,7 +192,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0041FA1BFC46A600ED2AD5 /* sqlite3.h in Headers */,
 				4C0041AB1BFC3A7E00ED2AD5 /* SQLCipher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,7 +200,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0041FB1BFC46A600ED2AD5 /* sqlite3.h in Headers */,
 				4C0041BD1BFC3C8300ED2AD5 /* SQLCipher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +208,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0041FC1BFC46A600ED2AD5 /* sqlite3.h in Headers */,
 				4C0041CF1BFC3D4000ED2AD5 /* SQLCipher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +216,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0041FD1BFC46A600ED2AD5 /* sqlite3.h in Headers */,
 				4C0041E21BFC3F5A00ED2AD5 /* SQLCipher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
